@@ -3,6 +3,8 @@
   <div class="card-block">
     <h4 class="card-title"><%= photo.username %></h4>
     <p class="card-text"><%= photo.caption %></p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  <div class="card-footer">
+    <%= render photo.comments %>
   </div>
 </div>
