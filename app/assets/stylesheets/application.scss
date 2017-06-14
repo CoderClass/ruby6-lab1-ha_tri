@@ -1,2 +1,14 @@
-@import "bootstrap";
-@import "home";
+// file: app/assets/stylesheets/application.scss
+@import "bootstrap"; // required by bootstrap
+@import "home";     // load css from home.scss
+@import "photos";   // load css from photos.scss
+
+// file: app/assets/stylesheets/photos.scss
+.card {
+  width: 500px;
+  margin: 0 auto 30px; // align cards in the center
+  img {
+    max-width: 100%; // image should not be bigger than card
+    border-radius: 0; // remove the rounded corner
+  }
+}
