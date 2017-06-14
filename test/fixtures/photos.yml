@@ -1,14 +1,14 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-one:
-  username: 
-  caption: 
-  likes_count: 
-  url: 
-  created_at: 
+oone:
+  username: MichaelJackson
+  caption: Old Kind of Pop
+  likes_count: 10000
+  url: "https://pbs.twimg.com/media/Clusm_JWYAEj2H-.jpg:large"
+  created_at: <%= 20.years.ago %>
 
 two:
-  username: 
-  caption: 
-  likes_count: 
-  url: 
-  created_at: 
+  username: TaylorSwift
+  caption: Young Queen of Pop
+  likes_count: 20000
+  url: "https://lh5.googleusercontent.com/-rotwX2rMVUM/AAAAAAAAAAI/AAAAAAABb28/WRGFcZkDV6Q/s0-c-k-no-ns/photo.jpg"
+  created_at: <%= Time.now %>
